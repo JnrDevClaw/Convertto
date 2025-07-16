@@ -1,0 +1,1962 @@
+[
+  {
+    "category": "DISTANCE",
+    "name": "km to Miles",
+    "fromUnit": "km",
+    "toUnit": "miles",
+    "formula": "Kilometers * 0.621371",
+    "parameter": "Kilometers"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "Miles to Km",
+    "fromUnit": "miles",
+    "toUnit": "km",
+    "formula": "Miles/0.621371",
+    "parameter": "Miles"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "meters to Ft",
+    "fromUnit": "meters",
+    "toUnit": "ft",
+    "formula": "meters*3.28084",
+    "parameter": "meters"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "ft to Meters",
+    "fromUnit": "ft",
+    "toUnit": "meters",
+    "formula": "feet/3.28084",
+    "parameter": "feet"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "cm to Inch",
+    "fromUnit": "cm",
+    "toUnit": "inch",
+    "formula": "centimeters/2.54",
+    "parameter": "centimeters"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "inch to Cm",
+    "fromUnit": "inch",
+    "toUnit": "cm",
+    "formula": "inches*2.54",
+    "parameter": "inches"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "yd to Mt",
+    "fromUnit": "yd",
+    "toUnit": "mt",
+    "formula": "yards*0.9144",
+    "parameter": "yards"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "mt to Yd",
+    "fromUnit": "mt",
+    "toUnit": "yd",
+    "formula": "meters/0.9144",
+    "parameter": "meters"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "km to Meters",
+    "fromUnit": "km",
+    "toUnit": "meters",
+    "formula": "kilometers * 1000",
+    "parameter": "kilometers"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "meters to Km",
+    "fromUnit": "meters",
+    "toUnit": "km",
+    "formula": "meters / 1000",
+    "parameter": "meters"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "km to Cm",
+    "fromUnit": "km",
+    "toUnit": "cm",
+    "formula": "kilometers * 100000",
+    "parameter": "kilometers"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "cm to Km",
+    "fromUnit": "cm",
+    "toUnit": "km",
+    "formula": "centimeters / 100000",
+    "parameter": "centimeters"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "km to Yd",
+    "fromUnit": "km",
+    "toUnit": "yd",
+    "formula": "kilometers * 1093.61",
+    "parameter": "kilometers"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "yd to Km",
+    "fromUnit": "yd",
+    "toUnit": "km",
+    "formula": "yards / 1093.61",
+    "parameter": "yards"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "meters to Cm",
+    "fromUnit": "meters",
+    "toUnit": "cm",
+    "formula": "meters * 100",
+    "parameter": "meters"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "cm to Meters",
+    "fromUnit": "cm",
+    "toUnit": "meters",
+    "formula": "centimeters / 100",
+    "parameter": "centimeters"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "yd to Cm",
+    "fromUnit": "yd",
+    "toUnit": "cm",
+    "formula": "yards * 91.44",
+    "parameter": "yards"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "cm to Yd",
+    "fromUnit": "cm",
+    "toUnit": "yd",
+    "formula": "centimeters / 91.44",
+    "parameter": "centimeters"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "miles to Ft",
+    "fromUnit": "miles",
+    "toUnit": "ft",
+    "formula": "miles * 5280",
+    "parameter": "miles"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "ft to Miles",
+    "fromUnit": "ft",
+    "toUnit": "miles",
+    "formula": "feet / 5280",
+    "parameter": "feet"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "miles to Yd",
+    "fromUnit": "miles",
+    "toUnit": "yd",
+    "formula": "miles * 1760",
+    "parameter": "miles"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "yd to Miles",
+    "fromUnit": "yd",
+    "toUnit": "miles",
+    "formula": "yards / 1760",
+    "parameter": "yards"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "miles to Inch",
+    "fromUnit": "miles",
+    "toUnit": "inch",
+    "formula": "miles * 63360",
+    "parameter": "miles"
+  },
+  {
+    "category": "DISTANCE",
+    "name": "inch to Miles",
+    "fromUnit": "inch",
+    "toUnit": "miles",
+    "formula": "inches / 63360",
+    "parameter": "inches"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "kg to Pounds",
+    "fromUnit": "kg",
+    "toUnit": "pounds",
+    "formula": "kilograms*2.20462",
+    "parameter": "kilograms"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "pounds to Kg",
+    "fromUnit": "pounds",
+    "toUnit": "kg",
+    "formula": "pounds/2.20462",
+    "parameter": "pounds"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "grams to Ounces",
+    "fromUnit": "grams",
+    "toUnit": "ounces",
+    "formula": "grams/28.3495",
+    "parameter": "grams"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "ounces to Grams",
+    "fromUnit": "ounces",
+    "toUnit": "grams",
+    "formula": "ounces*28.3495",
+    "parameter": "ounces"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "kgTo to nne",
+    "fromUnit": "kgto",
+    "toUnit": "nne",
+    "formula": "kilograms/1000",
+    "parameter": "kilograms"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "tonne to Kg",
+    "fromUnit": "tonne",
+    "toUnit": "kg",
+    "formula": "tonne*1000",
+    "parameter": "tonne"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "kg to Grams",
+    "fromUnit": "kg",
+    "toUnit": "grams",
+    "formula": "kilograms * 1000",
+    "parameter": "kilograms"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "grams to Kg",
+    "fromUnit": "grams",
+    "toUnit": "kg",
+    "formula": "grams / 1000",
+    "parameter": "grams"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "gramsTo to nne",
+    "fromUnit": "gramsto",
+    "toUnit": "nne",
+    "formula": "grams / 1000000",
+    "parameter": "grams"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "tonne to Grams",
+    "fromUnit": "tonne",
+    "toUnit": "grams",
+    "formula": "tonnes * 1000000",
+    "parameter": "tonnes"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "ouncesTo to nne",
+    "fromUnit": "ouncesto",
+    "toUnit": "nne",
+    "formula": "ounces / 35273.962",
+    "parameter": "ounces"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "tonne to Ounces",
+    "fromUnit": "tonne",
+    "toUnit": "ounces",
+    "formula": "tonnes * 35273.962",
+    "parameter": "tonnes"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "poundsTo to nne",
+    "fromUnit": "poundsto",
+    "toUnit": "nne",
+    "formula": "pounds / 2204.623",
+    "parameter": "pounds"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "tonne to Pounds",
+    "fromUnit": "tonne",
+    "toUnit": "pounds",
+    "formula": "tonnes * 2204.623",
+    "parameter": "tonnes"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "ounces to Pounds",
+    "fromUnit": "ounces",
+    "toUnit": "pounds",
+    "formula": "ounces / 16",
+    "parameter": "ounces"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "pounds to Ounces",
+    "fromUnit": "pounds",
+    "toUnit": "ounces",
+    "formula": "pounds * 16",
+    "parameter": "pounds"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "stone to Kg",
+    "fromUnit": "stone",
+    "toUnit": "kg",
+    "formula": "stone * 6.35029",
+    "parameter": "stone"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "kgToS to ne",
+    "fromUnit": "kgtos",
+    "toUnit": "ne",
+    "formula": "kilograms / 6.35029",
+    "parameter": "kilograms"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "stone to Pounds",
+    "fromUnit": "stone",
+    "toUnit": "pounds",
+    "formula": "stone * 14",
+    "parameter": "stone"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "poundsToS to ne",
+    "fromUnit": "poundstos",
+    "toUnit": "ne",
+    "formula": "pounds / 14",
+    "parameter": "pounds"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "stone to Grams",
+    "fromUnit": "stone",
+    "toUnit": "grams",
+    "formula": "stone * 6350.29",
+    "parameter": "stone"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "gramsToS to ne",
+    "fromUnit": "gramstos",
+    "toUnit": "ne",
+    "formula": "grams / 6350.29",
+    "parameter": "grams"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "stone to Ounces",
+    "fromUnit": "stone",
+    "toUnit": "ounces",
+    "formula": "stone * 224",
+    "parameter": "stone"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "ouncesToS to ne",
+    "fromUnit": "ouncestos",
+    "toUnit": "ne",
+    "formula": "ounces / 224",
+    "parameter": "ounces"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "stoneTo to nne",
+    "fromUnit": "stoneto",
+    "toUnit": "nne",
+    "formula": "stone / 157.473",
+    "parameter": "stone"
+  },
+  {
+    "category": "WEIGHT",
+    "name": "tonneToS to ne",
+    "fromUnit": "tonnetos",
+    "toUnit": "ne",
+    "formula": "tonnes * 157.473",
+    "parameter": "tonnes"
+  },
+  {
+    "category": "VOLUME",
+    "name": "ml to L",
+    "fromUnit": "ml",
+    "toUnit": "l",
+    "formula": "mililitres*1000",
+    "parameter": "mililitres"
+  },
+  {
+    "category": "VOLUME",
+    "name": "l to Ml",
+    "fromUnit": "l",
+    "toUnit": "ml",
+    "formula": "litres/1000",
+    "parameter": "litres"
+  },
+  {
+    "category": "VOLUME",
+    "name": "gal to L",
+    "fromUnit": "gal",
+    "toUnit": "l",
+    "formula": "gallons/0.264172",
+    "parameter": "gallons"
+  },
+  {
+    "category": "VOLUME",
+    "name": "Cubmet to L",
+    "fromUnit": "cubmet",
+    "toUnit": "l",
+    "formula": "cubicmeters*1000",
+    "parameter": "cubicmeters"
+  },
+  {
+    "category": "VOLUME",
+    "name": "l to Cubmet",
+    "fromUnit": "l",
+    "toUnit": "cubmet",
+    "formula": "litres/1000",
+    "parameter": "litres"
+  },
+  {
+    "category": "VOLUME",
+    "name": "ml to Gal",
+    "fromUnit": "ml",
+    "toUnit": "gal",
+    "formula": "milliliters * 0.000264172",
+    "parameter": "milliliters"
+  },
+  {
+    "category": "VOLUME",
+    "name": "gal to Ml",
+    "fromUnit": "gal",
+    "toUnit": "ml",
+    "formula": "gallons * 3785.41",
+    "parameter": "gallons"
+  },
+  {
+    "category": "VOLUME",
+    "name": "ml to Cubmet",
+    "fromUnit": "ml",
+    "toUnit": "cubmet",
+    "formula": "milliliters / 1000000",
+    "parameter": "milliliters"
+  },
+  {
+    "category": "VOLUME",
+    "name": "Cubmet to Ml",
+    "fromUnit": "cubmet",
+    "toUnit": "ml",
+    "formula": "cubicmeters * 1000000",
+    "parameter": "cubicmeters"
+  },
+  {
+    "category": "VOLUME",
+    "name": "gal to Cubmet",
+    "fromUnit": "gal",
+    "toUnit": "cubmet",
+    "formula": "gallons * 0.00378541",
+    "parameter": "gallons"
+  },
+  {
+    "category": "VOLUME",
+    "name": "Cubmet to Gal",
+    "fromUnit": "cubmet",
+    "toUnit": "gal",
+    "formula": "cubicmeters / 0.00378541",
+    "parameter": "cubicmeters"
+  },
+  {
+    "category": "VOLUME",
+    "name": "l to Quart",
+    "fromUnit": "l",
+    "toUnit": "quart",
+    "formula": "litres * 1.05669",
+    "parameter": "litres"
+  },
+  {
+    "category": "VOLUME",
+    "name": "quart to L",
+    "fromUnit": "quart",
+    "toUnit": "l",
+    "formula": "quarts / 1.05669",
+    "parameter": "quarts"
+  },
+  {
+    "category": "VOLUME",
+    "name": "quart to Gal",
+    "fromUnit": "quart",
+    "toUnit": "gal",
+    "formula": "quarts / 4",
+    "parameter": "quarts"
+  },
+  {
+    "category": "VOLUME",
+    "name": "gal to Quart",
+    "fromUnit": "gal",
+    "toUnit": "quart",
+    "formula": "gallons * 4",
+    "parameter": "gallons"
+  },
+  {
+    "category": "VOLUME",
+    "name": "pint to L",
+    "fromUnit": "pint",
+    "toUnit": "l",
+    "formula": "pints * 0.473176",
+    "parameter": "pints"
+  },
+  {
+    "category": "VOLUME",
+    "name": "l to Pint",
+    "fromUnit": "l",
+    "toUnit": "pint",
+    "formula": "litres / 0.473176",
+    "parameter": "litres"
+  },
+  {
+    "category": "VOLUME",
+    "name": "fluidOz to Ml",
+    "fromUnit": "fluidoz",
+    "toUnit": "ml",
+    "formula": "fluidOunces * 29.5735",
+    "parameter": "fluidOunces"
+  },
+  {
+    "category": "VOLUME",
+    "name": "ml to FluidOz",
+    "fromUnit": "ml",
+    "toUnit": "fluidoz",
+    "formula": "milliliters / 29.5735",
+    "parameter": "milliliters"
+  },
+  {
+    "category": "VOLUME",
+    "name": "pint to Quart",
+    "fromUnit": "pint",
+    "toUnit": "quart",
+    "formula": "pints / 2",
+    "parameter": "pints"
+  },
+  {
+    "category": "VOLUME",
+    "name": "quart to Pint",
+    "fromUnit": "quart",
+    "toUnit": "pint",
+    "formula": "quarts * 2",
+    "parameter": "quarts"
+  },
+  {
+    "category": "VOLUME",
+    "name": "pint to Gal",
+    "fromUnit": "pint",
+    "toUnit": "gal",
+    "formula": "pints / 8",
+    "parameter": "pints"
+  },
+  {
+    "category": "VOLUME",
+    "name": "gal to Pint",
+    "fromUnit": "gal",
+    "toUnit": "pint",
+    "formula": "gallons * 8",
+    "parameter": "gallons"
+  },
+  {
+    "category": "VOLUME",
+    "name": "fluidOz to Pint",
+    "fromUnit": "fluidoz",
+    "toUnit": "pint",
+    "formula": "fluidOunces / 16",
+    "parameter": "fluidOunces"
+  },
+  {
+    "category": "VOLUME",
+    "name": "pint to FluidOz",
+    "fromUnit": "pint",
+    "toUnit": "fluidoz",
+    "formula": "pints * 16",
+    "parameter": "pints"
+  },
+  {
+    "category": "VOLUME",
+    "name": "fluidOz to Quart",
+    "fromUnit": "fluidoz",
+    "toUnit": "quart",
+    "formula": "fluidOunces / 32",
+    "parameter": "fluidOunces"
+  },
+  {
+    "category": "VOLUME",
+    "name": "quart to FluidOz",
+    "fromUnit": "quart",
+    "toUnit": "fluidoz",
+    "formula": "quarts * 32",
+    "parameter": "quarts"
+  },
+  {
+    "category": "VOLUME",
+    "name": "fluidOz to Gal",
+    "fromUnit": "fluidoz",
+    "toUnit": "gal",
+    "formula": "fluidOunces / 128",
+    "parameter": "fluidOunces"
+  },
+  {
+    "category": "VOLUME",
+    "name": "gal to FluidOz",
+    "fromUnit": "gal",
+    "toUnit": "fluidoz",
+    "formula": "gallons * 128",
+    "parameter": "gallons"
+  },
+  {
+    "category": "TIME",
+    "name": "sec to Min",
+    "fromUnit": "sec",
+    "toUnit": "min",
+    "formula": "seconds/60",
+    "parameter": "seconds"
+  },
+  {
+    "category": "TIME",
+    "name": "min to Sec",
+    "fromUnit": "min",
+    "toUnit": "sec",
+    "formula": "minutes*60",
+    "parameter": "minutes"
+  },
+  {
+    "category": "TIME",
+    "name": "sec to Hrs",
+    "fromUnit": "sec",
+    "toUnit": "hrs",
+    "formula": "seconds/360",
+    "parameter": "seconds"
+  },
+  {
+    "category": "TIME",
+    "name": "hrs to Sec",
+    "fromUnit": "hrs",
+    "toUnit": "sec",
+    "formula": "hours*360",
+    "parameter": "hours"
+  },
+  {
+    "category": "TIME",
+    "name": "sec to Days",
+    "fromUnit": "sec",
+    "toUnit": "days",
+    "formula": "seconds/8640",
+    "parameter": "seconds"
+  },
+  {
+    "category": "TIME",
+    "name": "days to Sec",
+    "fromUnit": "days",
+    "toUnit": "sec",
+    "formula": "days*8640",
+    "parameter": "days"
+  },
+  {
+    "category": "TIME",
+    "name": "sec to Wks",
+    "fromUnit": "sec",
+    "toUnit": "wks",
+    "formula": "seconds/60480",
+    "parameter": "seconds"
+  },
+  {
+    "category": "TIME",
+    "name": "wks to Sec",
+    "fromUnit": "wks",
+    "toUnit": "sec",
+    "formula": "weeks*60480",
+    "parameter": "weeks"
+  },
+  {
+    "category": "TIME",
+    "name": "min to Hrs",
+    "fromUnit": "min",
+    "toUnit": "hrs",
+    "formula": "minutes/60",
+    "parameter": "minutes"
+  },
+  {
+    "category": "TIME",
+    "name": "hrs to Min",
+    "fromUnit": "hrs",
+    "toUnit": "min",
+    "formula": "hours*60",
+    "parameter": "hours"
+  },
+  {
+    "category": "TIME",
+    "name": "min to Days",
+    "fromUnit": "min",
+    "toUnit": "days",
+    "formula": "minutes/1440",
+    "parameter": "minutes"
+  },
+  {
+    "category": "TIME",
+    "name": "days to Min",
+    "fromUnit": "days",
+    "toUnit": "min",
+    "formula": "days*1440",
+    "parameter": "days"
+  },
+  {
+    "category": "TIME",
+    "name": "min to Wks",
+    "fromUnit": "min",
+    "toUnit": "wks",
+    "formula": "minutes/10080",
+    "parameter": "minutes"
+  },
+  {
+    "category": "TIME",
+    "name": "wks to Min",
+    "fromUnit": "wks",
+    "toUnit": "min",
+    "formula": "weeks*10080",
+    "parameter": "weeks"
+  },
+  {
+    "category": "TIME",
+    "name": "min to Yr",
+    "fromUnit": "min",
+    "toUnit": "yr",
+    "formula": "minutes/525600",
+    "parameter": "minutes"
+  },
+  {
+    "category": "TIME",
+    "name": "yr to Min",
+    "fromUnit": "yr",
+    "toUnit": "min",
+    "formula": "years*525600",
+    "parameter": "years"
+  },
+  {
+    "category": "TIME",
+    "name": "hrs to Days",
+    "fromUnit": "hrs",
+    "toUnit": "days",
+    "formula": "hours/24",
+    "parameter": "hours"
+  },
+  {
+    "category": "TIME",
+    "name": "days to Hrs",
+    "fromUnit": "days",
+    "toUnit": "hrs",
+    "formula": "days*24",
+    "parameter": "days"
+  },
+  {
+    "category": "TIME",
+    "name": "hrs to Wks",
+    "fromUnit": "hrs",
+    "toUnit": "wks",
+    "formula": "hours/168",
+    "parameter": "hours"
+  },
+  {
+    "category": "TIME",
+    "name": "wks to Hrs",
+    "fromUnit": "wks",
+    "toUnit": "hrs",
+    "formula": "weeks*168",
+    "parameter": "weeks"
+  },
+  {
+    "category": "TIME",
+    "name": "hrs to Yrs",
+    "fromUnit": "hrs",
+    "toUnit": "yrs",
+    "formula": "hours/8760",
+    "parameter": "hours"
+  },
+  {
+    "category": "TIME",
+    "name": "yrs to Hrs",
+    "fromUnit": "yrs",
+    "toUnit": "hrs",
+    "formula": "hours*8760",
+    "parameter": "hours"
+  },
+  {
+    "category": "TIME",
+    "name": "days to Yrs",
+    "fromUnit": "days",
+    "toUnit": "yrs",
+    "formula": "days/365",
+    "parameter": "days"
+  },
+  {
+    "category": "TIME",
+    "name": "days to Yrs",
+    "fromUnit": "days",
+    "toUnit": "yrs",
+    "formula": "days/365",
+    "parameter": "days"
+  },
+  {
+    "category": "TIME",
+    "name": "yr to Days",
+    "fromUnit": "yr",
+    "toUnit": "days",
+    "formula": "years*365",
+    "parameter": "years"
+  },
+  {
+    "category": "TIME",
+    "name": "days to Wks",
+    "fromUnit": "days",
+    "toUnit": "wks",
+    "formula": "days/7",
+    "parameter": "days"
+  },
+  {
+    "category": "TIME",
+    "name": "wks to Days",
+    "fromUnit": "wks",
+    "toUnit": "days",
+    "formula": "weeks*7",
+    "parameter": "weeks"
+  },
+  {
+    "category": "TIME",
+    "name": "wks to Yr",
+    "fromUnit": "wks",
+    "toUnit": "yr",
+    "formula": "weeks/52.142857143",
+    "parameter": "weeks"
+  },
+  {
+    "category": "TIME",
+    "name": "yr to Wk",
+    "fromUnit": "yr",
+    "toUnit": "wk",
+    "formula": "years*52.142857143",
+    "parameter": "years"
+  },
+  {
+    "category": "TIME",
+    "name": "mth to Yrs",
+    "fromUnit": "mth",
+    "toUnit": "yrs",
+    "formula": "month/12",
+    "parameter": "month"
+  },
+  {
+    "category": "TIME",
+    "name": "yrs to Mth",
+    "fromUnit": "yrs",
+    "toUnit": "mth",
+    "formula": "years*12",
+    "parameter": "years"
+  },
+  {
+    "category": "ENERGY",
+    "name": "joules to Cal",
+    "fromUnit": "joules",
+    "toUnit": "cal",
+    "formula": "joules / 4.184",
+    "parameter": "joules"
+  },
+  {
+    "category": "ENERGY",
+    "name": "cal to Joules",
+    "fromUnit": "cal",
+    "toUnit": "joules",
+    "formula": "calories*4.184",
+    "parameter": "calories"
+  },
+  {
+    "category": "ENERGY",
+    "name": "kwh to Joules",
+    "fromUnit": "kwh",
+    "toUnit": "joules",
+    "formula": "kilowattHours * 3.6e6",
+    "parameter": "kilowattHours"
+  },
+  {
+    "category": "ENERGY",
+    "name": "joules to Kwh",
+    "fromUnit": "joules",
+    "toUnit": "kwh",
+    "formula": "joules / 3.6e6",
+    "parameter": "joules"
+  },
+  {
+    "category": "ENERGY",
+    "name": "joules to Kcal",
+    "fromUnit": "joules",
+    "toUnit": "kcal",
+    "formula": "joules / 4184",
+    "parameter": "joules"
+  },
+  {
+    "category": "ENERGY",
+    "name": "kcal to Joules",
+    "fromUnit": "kcal",
+    "toUnit": "joules",
+    "formula": "kilocalories * 4184",
+    "parameter": "kilocalories"
+  },
+  {
+    "category": "ENERGY",
+    "name": "kwh to Kcal",
+    "fromUnit": "kwh",
+    "toUnit": "kcal",
+    "formula": "kilowattHours * 859.845",
+    "parameter": "kilowattHours"
+  },
+  {
+    "category": "ENERGY",
+    "name": "kcal to Kwh",
+    "fromUnit": "kcal",
+    "toUnit": "kwh",
+    "formula": "kilocalories / 859.845",
+    "parameter": "kilocalories"
+  },
+  {
+    "category": "SPEED",
+    "name": "kph to Mph",
+    "fromUnit": "kph",
+    "toUnit": "mph",
+    "formula": "kph * 0.621371",
+    "parameter": "kph"
+  },
+  {
+    "category": "SPEED",
+    "name": "mph to Kph",
+    "fromUnit": "mph",
+    "toUnit": "kph",
+    "formula": "mph/0.621371",
+    "parameter": "mph"
+  },
+  {
+    "category": "SPEED",
+    "name": "metps to Kph",
+    "fromUnit": "metps",
+    "toUnit": "kph",
+    "formula": "meterspsecond * 3.6",
+    "parameter": "meterspsecond"
+  },
+  {
+    "category": "SPEED",
+    "name": "kph to Metps",
+    "fromUnit": "kph",
+    "toUnit": "metps",
+    "formula": "kph/3.6",
+    "parameter": "kph"
+  },
+  {
+    "category": "SPEED",
+    "name": "mph to Metps",
+    "fromUnit": "mph",
+    "toUnit": "metps",
+    "formula": "mph * 0.44704",
+    "parameter": "mph"
+  },
+  {
+    "category": "SPEED",
+    "name": "metps to Mph",
+    "fromUnit": "metps",
+    "toUnit": "mph",
+    "formula": "meterspsecond / 0.44704",
+    "parameter": "meterspsecond"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "pa to Atm",
+    "fromUnit": "pa",
+    "toUnit": "atm",
+    "formula": "pascals / 101325",
+    "parameter": "pascals"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "atm to Pa",
+    "fromUnit": "atm",
+    "toUnit": "pa",
+    "formula": "atmosphere * 101325",
+    "parameter": "atmosphere"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "bar to Pa",
+    "fromUnit": "bar",
+    "toUnit": "pa",
+    "formula": "bar*10000",
+    "parameter": "bar"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "pa to Bar",
+    "fromUnit": "pa",
+    "toUnit": "bar",
+    "formula": "pascals/10000",
+    "parameter": "pascals"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "atm to Bar",
+    "fromUnit": "atm",
+    "toUnit": "bar",
+    "formula": "atmosphere * 1.01325",
+    "parameter": "atmosphere"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "bar to Atm",
+    "fromUnit": "bar",
+    "toUnit": "atm",
+    "formula": "bar / 1.01325",
+    "parameter": "bar"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "bar to Kpa",
+    "fromUnit": "bar",
+    "toUnit": "kpa",
+    "formula": "bar * 100",
+    "parameter": "bar"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "kpa to Bar",
+    "fromUnit": "kpa",
+    "toUnit": "bar",
+    "formula": "kilopascals / 100",
+    "parameter": "kilopascals"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "atm to Kpa",
+    "fromUnit": "atm",
+    "toUnit": "kpa",
+    "formula": "atmosphere * 101.325",
+    "parameter": "atmosphere"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "kpa to Atm",
+    "fromUnit": "kpa",
+    "toUnit": "atm",
+    "formula": "kilopascals / 101.325",
+    "parameter": "kilopascals"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "psi to Kpa",
+    "fromUnit": "psi",
+    "toUnit": "kpa",
+    "formula": "psi * 6.89476",
+    "parameter": "psi"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "kpa to Psi",
+    "fromUnit": "kpa",
+    "toUnit": "psi",
+    "formula": "kilopascals / 6.89476",
+    "parameter": "kilopascals"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "psi to Atm",
+    "fromUnit": "psi",
+    "toUnit": "atm",
+    "formula": "psi / 14.6959",
+    "parameter": "psi"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "atm to Psi",
+    "fromUnit": "atm",
+    "toUnit": "psi",
+    "formula": "atmosphere * 14.6959",
+    "parameter": "atmosphere"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "psi to Bar",
+    "fromUnit": "psi",
+    "toUnit": "bar",
+    "formula": "psi / 14.5038",
+    "parameter": "psi"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "bar to Psi",
+    "fromUnit": "bar",
+    "toUnit": "psi",
+    "formula": "bar * 14.5038",
+    "parameter": "bar"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "psi to Pa",
+    "fromUnit": "psi",
+    "toUnit": "pa",
+    "formula": "psi * 6894.76",
+    "parameter": "psi"
+  },
+  {
+    "category": "PRESSURE",
+    "name": "pa to Psi",
+    "fromUnit": "pa",
+    "toUnit": "psi",
+    "formula": "pascals / 6894.76",
+    "parameter": "pascals"
+  },
+  {
+    "category": "AREA",
+    "name": "sqm to Sqf",
+    "fromUnit": "sqm",
+    "toUnit": "sqf",
+    "formula": "squaremeters * 10.7639",
+    "parameter": "squaremeters"
+  },
+  {
+    "category": "AREA",
+    "name": "sqf to Sqm",
+    "fromUnit": "sqf",
+    "toUnit": "sqm",
+    "formula": "squarefeet/10.7639",
+    "parameter": "squarefeet"
+  },
+  {
+    "category": "AREA",
+    "name": "sqf to Hec",
+    "fromUnit": "sqf",
+    "toUnit": "hec",
+    "formula": "squarefeet / 107,639.1041671",
+    "parameter": "squarefeet"
+  },
+  {
+    "category": "AREA",
+    "name": "hec to Sqf",
+    "fromUnit": "hec",
+    "toUnit": "sqf",
+    "formula": "hectares*107639.1041671",
+    "parameter": "hectares"
+  },
+  {
+    "category": "AREA",
+    "name": "sqf to Acres",
+    "fromUnit": "sqf",
+    "toUnit": "acres",
+    "formula": "squarefeet/43560",
+    "parameter": "squarefeet"
+  },
+  {
+    "category": "AREA",
+    "name": "acres to Sqf",
+    "fromUnit": "acres",
+    "toUnit": "sqf",
+    "formula": "acres*43650",
+    "parameter": "acres"
+  },
+  {
+    "category": "AREA",
+    "name": "sqm to Hec",
+    "fromUnit": "sqm",
+    "toUnit": "hec",
+    "formula": "squaremeters/10000",
+    "parameter": "squaremeters"
+  },
+  {
+    "category": "AREA",
+    "name": "hec to Sqm",
+    "fromUnit": "hec",
+    "toUnit": "sqm",
+    "formula": "hectares*10000",
+    "parameter": "hectares"
+  },
+  {
+    "category": "AREA",
+    "name": "sqm to Acres",
+    "fromUnit": "sqm",
+    "toUnit": "acres",
+    "formula": "squaremeters/4046.8564224",
+    "parameter": "squaremeters"
+  },
+  {
+    "category": "AREA",
+    "name": "acres to Sqm",
+    "fromUnit": "acres",
+    "toUnit": "sqm",
+    "formula": "acres*4046.8564224",
+    "parameter": "acres"
+  },
+  {
+    "category": "AREA",
+    "name": "hec to Acres",
+    "fromUnit": "hec",
+    "toUnit": "acres",
+    "formula": "hectares * 2.471053814671653",
+    "parameter": "hectares"
+  },
+  {
+    "category": "AREA",
+    "name": "acres to Hec",
+    "fromUnit": "acres",
+    "toUnit": "hec",
+    "formula": "acres/2.471053814671653",
+    "parameter": "acres"
+  },
+  {
+    "category": "AREA",
+    "name": "sqm to Sqyd",
+    "fromUnit": "sqm",
+    "toUnit": "sqyd",
+    "formula": "squaremeters * 1.19599",
+    "parameter": "squaremeters"
+  },
+  {
+    "category": "AREA",
+    "name": "sqyd to Sqm",
+    "fromUnit": "sqyd",
+    "toUnit": "sqm",
+    "formula": "squareyards / 1.19599",
+    "parameter": "squareyards"
+  },
+  {
+    "category": "AREA",
+    "name": "sqyd to Acres",
+    "fromUnit": "sqyd",
+    "toUnit": "acres",
+    "formula": "squareyards / 4840",
+    "parameter": "squareyards"
+  },
+  {
+    "category": "AREA",
+    "name": "acres to Sqyd",
+    "fromUnit": "acres",
+    "toUnit": "sqyd",
+    "formula": "acres * 4840",
+    "parameter": "acres"
+  },
+  {
+    "category": "AREA",
+    "name": "sqInch to Sqm",
+    "fromUnit": "sqinch",
+    "toUnit": "sqm",
+    "formula": "squareInches * 0.00064516",
+    "parameter": "squareInches"
+  },
+  {
+    "category": "AREA",
+    "name": "sqm to SqInch",
+    "fromUnit": "sqm",
+    "toUnit": "sqinch",
+    "formula": "squareMeters / 0.00064516",
+    "parameter": "squareMeters"
+  },
+  {
+    "category": "AREA",
+    "name": "sqInch to Sqf",
+    "fromUnit": "sqinch",
+    "toUnit": "sqf",
+    "formula": "squareInches / 144",
+    "parameter": "squareInches"
+  },
+  {
+    "category": "AREA",
+    "name": "sqf to SqInch",
+    "fromUnit": "sqf",
+    "toUnit": "sqinch",
+    "formula": "squareFeet * 144",
+    "parameter": "squareFeet"
+  },
+  {
+    "category": "AREA",
+    "name": "sqInch to Sqyd",
+    "fromUnit": "sqinch",
+    "toUnit": "sqyd",
+    "formula": "squareInches / 1296",
+    "parameter": "squareInches"
+  },
+  {
+    "category": "AREA",
+    "name": "sqyd to SqInch",
+    "fromUnit": "sqyd",
+    "toUnit": "sqinch",
+    "formula": "squareYards * 1296",
+    "parameter": "squareYards"
+  },
+  {
+    "category": "AREA",
+    "name": "sqInch to Acres",
+    "fromUnit": "sqinch",
+    "toUnit": "acres",
+    "formula": "squareInches / 6272640",
+    "parameter": "squareInches"
+  },
+  {
+    "category": "AREA",
+    "name": "acres to SqInch",
+    "fromUnit": "acres",
+    "toUnit": "sqinch",
+    "formula": "acres * 6272640",
+    "parameter": "acres"
+  },
+  {
+    "category": "AREA",
+    "name": "sqInch to Hec",
+    "fromUnit": "sqinch",
+    "toUnit": "hec",
+    "formula": "squareInches / 15500031.000062",
+    "parameter": "squareInches"
+  },
+  {
+    "category": "AREA",
+    "name": "hec to SqInch",
+    "fromUnit": "hec",
+    "toUnit": "sqinch",
+    "formula": "hectares * 15500031.000062",
+    "parameter": "hectares"
+  },
+  {
+    "category": "CHEMICAL",
+    "name": "gmol to Kgmol",
+    "fromUnit": "gmol",
+    "toUnit": "kgmol",
+    "formula": "gramspMole / 1000",
+    "parameter": "gramspMole"
+  },
+  {
+    "category": "CHEMICAL",
+    "name": "kgmol to Gmol",
+    "fromUnit": "kgmol",
+    "toUnit": "gmol",
+    "formula": "kilogramspMole * 1000",
+    "parameter": "kilogramspMole"
+  },
+  {
+    "category": "CHEMICAL",
+    "name": "paSec to Cp",
+    "fromUnit": "pasec",
+    "toUnit": "cp",
+    "formula": "pascalSeconds * 1000",
+    "parameter": "pascalSeconds"
+  },
+  {
+    "category": "CHEMICAL",
+    "name": "cp to PaSec",
+    "fromUnit": "cp",
+    "toUnit": "pasec",
+    "formula": "centipoise / 1000",
+    "parameter": "centipoise"
+  },
+  {
+    "category": "HEAT",
+    "name": "jkgk to Kjkgk",
+    "fromUnit": "jkgk",
+    "toUnit": "kjkgk",
+    "formula": "joulespKilogramKelvin / 1000",
+    "parameter": "joulespKilogramKelvin"
+  },
+  {
+    "category": "HEAT",
+    "name": "kjkgk to Jkgk",
+    "fromUnit": "kjkgk",
+    "toUnit": "jkgk",
+    "formula": "kilojoulespKilogramKelvin * 1000",
+    "parameter": "kilojoulespKilogramKelvin"
+  },
+  {
+    "category": "MASSFLOWRATE",
+    "name": "kgh to Kgs",
+    "fromUnit": "kgh",
+    "toUnit": "kgs",
+    "formula": "kilogramspHour / 3600",
+    "parameter": "kilogramspHour"
+  },
+  {
+    "category": "MASSFLOWRATE",
+    "name": "kgs to Kgh",
+    "fromUnit": "kgs",
+    "toUnit": "kgh",
+    "formula": "kilogramspSecond * 3600",
+    "parameter": "kilogramspSecond"
+  },
+  {
+    "category": "AEROSPACE",
+    "name": "knots to Mph",
+    "fromUnit": "knots",
+    "toUnit": "mph",
+    "formula": "knots * 1.15078",
+    "parameter": "knots"
+  },
+  {
+    "category": "AEROSPACE",
+    "name": "mph to Knots",
+    "fromUnit": "mph",
+    "toUnit": "knots",
+    "formula": "milespHour / 1.15078",
+    "parameter": "milespHour"
+  },
+  {
+    "category": "AEROSPACE",
+    "name": "knots to Kph",
+    "fromUnit": "knots",
+    "toUnit": "kph",
+    "formula": "knots * 1.852",
+    "parameter": "knots"
+  },
+  {
+    "category": "AEROSPACE",
+    "name": "kph to Knots",
+    "fromUnit": "kph",
+    "toUnit": "knots",
+    "formula": "kilometerspHour / 1.852",
+    "parameter": "kilometerspHour"
+  },
+  {
+    "category": "AEROSPACE",
+    "name": "n to Lbf",
+    "fromUnit": "n",
+    "toUnit": "lbf",
+    "formula": "newtons * 0.224809",
+    "parameter": "newtons"
+  },
+  {
+    "category": "AEROSPACE",
+    "name": "lbf to N",
+    "fromUnit": "lbf",
+    "toUnit": "n",
+    "formula": "poundsForce / 0.224809",
+    "parameter": "poundsForce"
+  },
+  {
+    "category": "ANGLE",
+    "name": "deg to Rad",
+    "fromUnit": "deg",
+    "toUnit": "rad",
+    "formula": "degrees * (Math.PI / 180)",
+    "parameter": "degrees"
+  },
+  {
+    "category": "ANGLE",
+    "name": "rad to Deg",
+    "fromUnit": "rad",
+    "toUnit": "deg",
+    "formula": "radians * (180 / Math.PI)",
+    "parameter": "radians"
+  },
+  {
+    "category": "DATA",
+    "name": "B to KB",
+    "fromUnit": "b",
+    "toUnit": "kb",
+    "formula": "bytes/1024",
+    "parameter": "bytes"
+  },
+  {
+    "category": "DATA",
+    "name": "KB to B",
+    "fromUnit": "kb",
+    "toUnit": "b",
+    "formula": "kilobytes*1024",
+    "parameter": "kilobytes"
+  },
+  {
+    "category": "DATA",
+    "name": "B to MB",
+    "fromUnit": "b",
+    "toUnit": "mb",
+    "formula": "bytes/2^20",
+    "parameter": "bytes"
+  },
+  {
+    "category": "DATA",
+    "name": "MB to B",
+    "fromUnit": "mb",
+    "toUnit": "b",
+    "formula": "mb*2^20",
+    "parameter": "mb"
+  },
+  {
+    "category": "DATA",
+    "name": "B to GB",
+    "fromUnit": "b",
+    "toUnit": "gb",
+    "formula": "bytes/2^30",
+    "parameter": "bytes"
+  },
+  {
+    "category": "DATA",
+    "name": "GB to B",
+    "fromUnit": "gb",
+    "toUnit": "b",
+    "formula": "gb*2^30",
+    "parameter": "gb"
+  },
+  {
+    "category": "DATA",
+    "name": "B to TB",
+    "fromUnit": "b",
+    "toUnit": "tb",
+    "formula": "bytes/2^40",
+    "parameter": "bytes"
+  },
+  {
+    "category": "DATA",
+    "name": "TB to B",
+    "fromUnit": "tb",
+    "toUnit": "b",
+    "formula": "tb*2^40",
+    "parameter": "tb"
+  },
+  {
+    "category": "DATA",
+    "name": "B to PB",
+    "fromUnit": "b",
+    "toUnit": "pb",
+    "formula": "bytes/2^50",
+    "parameter": "bytes"
+  },
+  {
+    "category": "DATA",
+    "name": "PB to B",
+    "fromUnit": "pb",
+    "toUnit": "b",
+    "formula": "pb*2^50",
+    "parameter": "pb"
+  },
+  {
+    "category": "DATA",
+    "name": "Kb to MB",
+    "fromUnit": "kb",
+    "toUnit": "mb",
+    "formula": "kb/1024",
+    "parameter": "kb"
+  },
+  {
+    "category": "DATA",
+    "name": "MB to KB",
+    "fromUnit": "mb",
+    "toUnit": "kb",
+    "formula": "mb*1024",
+    "parameter": "mb"
+  },
+  {
+    "category": "DATA",
+    "name": "KB to GB",
+    "fromUnit": "kb",
+    "toUnit": "gb",
+    "formula": "kb/2^20",
+    "parameter": "kb"
+  },
+  {
+    "category": "DATA",
+    "name": "GB to KB",
+    "fromUnit": "gb",
+    "toUnit": "kb",
+    "formula": "gb*2^20",
+    "parameter": "gb"
+  },
+  {
+    "category": "DATA",
+    "name": "KB to TB",
+    "fromUnit": "kb",
+    "toUnit": "tb",
+    "formula": "kb/2^30",
+    "parameter": "kb"
+  },
+  {
+    "category": "DATA",
+    "name": "TB to KB",
+    "fromUnit": "tb",
+    "toUnit": "kb",
+    "formula": "tb*2^30",
+    "parameter": "tb"
+  },
+  {
+    "category": "DATA",
+    "name": "KB to PB",
+    "fromUnit": "kb",
+    "toUnit": "pb",
+    "formula": "kb/2^40",
+    "parameter": "kb"
+  },
+  {
+    "category": "DATA",
+    "name": "PB to KB",
+    "fromUnit": "pb",
+    "toUnit": "kb",
+    "formula": "pb*2^40",
+    "parameter": "pb"
+  },
+  {
+    "category": "DATA",
+    "name": "MB to GB",
+    "fromUnit": "mb",
+    "toUnit": "gb",
+    "formula": "mb/2^10",
+    "parameter": "mb"
+  },
+  {
+    "category": "DATA",
+    "name": "GB to MB",
+    "fromUnit": "gb",
+    "toUnit": "mb",
+    "formula": "gb*2^10",
+    "parameter": "gb"
+  },
+  {
+    "category": "DATA",
+    "name": "MB to TB",
+    "fromUnit": "mb",
+    "toUnit": "tb",
+    "formula": "mb/2^20",
+    "parameter": "mb"
+  },
+  {
+    "category": "DATA",
+    "name": "TB to MB",
+    "fromUnit": "tb",
+    "toUnit": "mb",
+    "formula": "tb*2^20",
+    "parameter": "tb"
+  },
+  {
+    "category": "DATA",
+    "name": "MB to PB",
+    "fromUnit": "mb",
+    "toUnit": "pb",
+    "formula": "mb/2^30",
+    "parameter": "mb"
+  },
+  {
+    "category": "DATA",
+    "name": "PB to MB",
+    "fromUnit": "pb",
+    "toUnit": "mb",
+    "formula": "pb*2^30",
+    "parameter": "pb"
+  },
+  {
+    "category": "DATA",
+    "name": "GB to TB",
+    "fromUnit": "gb",
+    "toUnit": "tb",
+    "formula": "gb/2^10",
+    "parameter": "gb"
+  },
+  {
+    "category": "DATA",
+    "name": "TB to GB",
+    "fromUnit": "tb",
+    "toUnit": "gb",
+    "formula": "tb*2^10",
+    "parameter": "tb"
+  },
+  {
+    "category": "DATA",
+    "name": "GB to PB",
+    "fromUnit": "gb",
+    "toUnit": "pb",
+    "formula": "gb/2^20",
+    "parameter": "gb"
+  },
+  {
+    "category": "DATA",
+    "name": "PB to GB",
+    "fromUnit": "pb",
+    "toUnit": "gb",
+    "formula": "pb*2^20",
+    "parameter": "pb"
+  },
+  {
+    "category": "DATA",
+    "name": "TB to PB",
+    "fromUnit": "tb",
+    "toUnit": "pb",
+    "formula": "tb/2^10",
+    "parameter": "tb"
+  },
+  {
+    "category": "DATA",
+    "name": "PB to TB",
+    "fromUnit": "pb",
+    "toUnit": "tb",
+    "formula": "pb*1024",
+    "parameter": "pb"
+  },
+  {
+    "category": "DATA",
+    "name": "bits to Byte",
+    "fromUnit": "bits",
+    "toUnit": "byte",
+    "formula": "bits/8",
+    "parameter": "bits"
+  },
+  {
+    "category": "DATA",
+    "name": "bytes to Bit",
+    "fromUnit": "bytes",
+    "toUnit": "bit",
+    "formula": "bytes*8",
+    "parameter": "bytes"
+  },
+  {
+    "category": "DATA",
+    "name": "bits to Nibble",
+    "fromUnit": "bits",
+    "toUnit": "nibble",
+    "formula": "bits/4",
+    "parameter": "bits"
+  },
+  {
+    "category": "DATA",
+    "name": "nibble to Bits",
+    "fromUnit": "nibble",
+    "toUnit": "bits",
+    "formula": "nibbles*4",
+    "parameter": "nibbles"
+  },
+  {
+    "category": "DATA",
+    "name": "byte to Nibble",
+    "fromUnit": "byte",
+    "toUnit": "nibble",
+    "formula": "bytes*2",
+    "parameter": "bytes"
+  },
+  {
+    "category": "DATA",
+    "name": "nibble to Byte",
+    "fromUnit": "nibble",
+    "toUnit": "byte",
+    "formula": "nibbles/2",
+    "parameter": "nibbles"
+  },
+  {
+    "category": "DATA",
+    "name": "bits to KB",
+    "fromUnit": "bits",
+    "toUnit": "kb",
+    "formula": "bits/(8 * 1024)",
+    "parameter": "bits"
+  },
+  {
+    "category": "DATA",
+    "name": "KB to Bits",
+    "fromUnit": "kb",
+    "toUnit": "bits",
+    "formula": "kilobytes * 8 * 1024",
+    "parameter": "kilobytes"
+  },
+  {
+    "category": "DATA",
+    "name": "bits to MB",
+    "fromUnit": "bits",
+    "toUnit": "mb",
+    "formula": "bits/(8 * 2^20)",
+    "parameter": "bits"
+  },
+  {
+    "category": "DATA",
+    "name": "MB to Bits",
+    "fromUnit": "mb",
+    "toUnit": "bits",
+    "formula": "megabytes * 8 * 2^20",
+    "parameter": "megabytes"
+  },
+  {
+    "category": "DATA",
+    "name": "bits to GB",
+    "fromUnit": "bits",
+    "toUnit": "gb",
+    "formula": "bits/(8 * 2^30)",
+    "parameter": "bits"
+  },
+  {
+    "category": "DATA",
+    "name": "GB to Bits",
+    "fromUnit": "gb",
+    "toUnit": "bits",
+    "formula": "gigabytes * 8 * 2^30",
+    "parameter": "gigabytes"
+  },
+  {
+    "category": "DATA",
+    "name": "bits to TB",
+    "fromUnit": "bits",
+    "toUnit": "tb",
+    "formula": "bits/(8 * 2^40)",
+    "parameter": "bits"
+  },
+  {
+    "category": "DATA",
+    "name": "TB to Bits",
+    "fromUnit": "tb",
+    "toUnit": "bits",
+    "formula": "terabytes * 8 * 2^40",
+    "parameter": "terabytes"
+  },
+  {
+    "category": "DATA",
+    "name": "bits to PB",
+    "fromUnit": "bits",
+    "toUnit": "pb",
+    "formula": "bits/(8 * 2^50)",
+    "parameter": "bits"
+  },
+  {
+    "category": "DATA",
+    "name": "PB to Bits",
+    "fromUnit": "pb",
+    "toUnit": "bits",
+    "formula": "petabytes * 8 * 2^50",
+    "parameter": "petabytes"
+  },
+  {
+    "category": "DATA",
+    "name": "nibble to KB",
+    "fromUnit": "nibble",
+    "toUnit": "kb",
+    "formula": "nibbles/(2 * 1024)",
+    "parameter": "nibbles"
+  },
+  {
+    "category": "DATA",
+    "name": "KB to Nibble",
+    "fromUnit": "kb",
+    "toUnit": "nibble",
+    "formula": "kilobytes * 2 * 1024",
+    "parameter": "kilobytes"
+  },
+  {
+    "category": "DATA",
+    "name": "nibble to MB",
+    "fromUnit": "nibble",
+    "toUnit": "mb",
+    "formula": "nibbles/(2 * 2^20)",
+    "parameter": "nibbles"
+  },
+  {
+    "category": "DATA",
+    "name": "MB to Nibble",
+    "fromUnit": "mb",
+    "toUnit": "nibble",
+    "formula": "megabytes * 2 * 2^20",
+    "parameter": "megabytes"
+  },
+  {
+    "category": "DATA",
+    "name": "nibble to GB",
+    "fromUnit": "nibble",
+    "toUnit": "gb",
+    "formula": "nibbles/(2 * 2^30)",
+    "parameter": "nibbles"
+  },
+  {
+    "category": "DATA",
+    "name": "GB to Nibble",
+    "fromUnit": "gb",
+    "toUnit": "nibble",
+    "formula": "gigabytes * 2 * 2^30",
+    "parameter": "gigabytes"
+  },
+  {
+    "category": "DATA",
+    "name": "nibble to TB",
+    "fromUnit": "nibble",
+    "toUnit": "tb",
+    "formula": "nibbles/(2 * 2^40)",
+    "parameter": "nibbles"
+  },
+  {
+    "category": "DATA",
+    "name": "TB to Nibble",
+    "fromUnit": "tb",
+    "toUnit": "nibble",
+    "formula": "terabytes * 2 * 2^40",
+    "parameter": "terabytes"
+  },
+  {
+    "category": "DATA",
+    "name": "nibble to PB",
+    "fromUnit": "nibble",
+    "toUnit": "pb",
+    "formula": "nibbles/(2 * 2^50)",
+    "parameter": "nibbles"
+  },
+  {
+    "category": "DATA",
+    "name": "PB to Nibble",
+    "fromUnit": "pb",
+    "toUnit": "nibble",
+    "formula": "petabytes * 2 * 2^50",
+    "parameter": "petabytes"
+  },
+  {
+    "category": "TEMpATURE",
+    "name": "c to F",
+    "fromUnit": "c",
+    "toUnit": "f",
+    "formula": "(celcius * 9/5) + 32",
+    "parameter": "celcius"
+  },
+  {
+    "category": "TEMpATURE",
+    "name": "f to C",
+    "fromUnit": "f",
+    "toUnit": "c",
+    "formula": "(fahrenheit - 32) * 5/9",
+    "parameter": "fahrenheit"
+  },
+  {
+    "category": "TEMpATURE",
+    "name": "k to C",
+    "fromUnit": "k",
+    "toUnit": "c",
+    "formula": "kelvin-273.15",
+    "parameter": "kelvin"
+  },
+  {
+    "category": "TEMpATURE",
+    "name": "c to K",
+    "fromUnit": "c",
+    "toUnit": "k",
+    "formula": "celcius+273.15",
+    "parameter": "celcius"
+  },
+  {
+    "category": "TEMpATURE",
+    "name": "f to K",
+    "fromUnit": "f",
+    "toUnit": "k",
+    "formula": "((fahrenheit - 32) * 5/9) + 273.15",
+    "parameter": "fahrenheit"
+  }
+]

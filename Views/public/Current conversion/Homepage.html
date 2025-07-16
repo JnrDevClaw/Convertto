@@ -1,0 +1,199 @@
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="/Views/dark_mode.js"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col justify-start overflow-x-hidden bg-white font-work group/design-root dark:bg-slate-900"
+    >
+      <header class="flex flex-col">
+        <div class="flex items-center bg-white p-4 pb-2 justify-between">
+          <h2 class="text-[#121416] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">CONVERTTO</h2>
+          <div class="flex w-12 items-center justify-end">
+            <button id="theme-toggle-button" class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-700">
+              <span id="theme-toggle-sun-icon" class="text-gray-800 dark:text-gray-200">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z"
+                  ></path>
+                </svg>
+              </span>
+              <span id="theme-toggle-moon-icon" class="text-gray-800 dark:text-gray-200 hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M216.7,152.87A95.66,95.66,0,0,1,224,128a96,96,0,0,1-96,96,95.66,95.66,0,0,1-24.87-7.3,96.22,96.22,0,0,0,113.53-113.53A95.66,95.66,0,0,1,216.7,152.87Z"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <nav class="pb-3">
+          <ul class="flex border-b border-[#dde0e3] dark:border-slate-700 px-4 gap-8">
+            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#121416] dark:border-b-white text-[#121416] dark:text-white pb-[13px] pt-4" href="Homepage.html">
+              <li class="text-[#121416] dark:text-white text-sm font-bold leading-normal tracking-[0.015em]">Units</li>
+            </a>
+          </ul>
+        </nav>
+      </header>
+      <main class="grow">
+        <h2 class="text-[#121416] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Categories</h2>
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+          <a href="Distance.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Ruler" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M235.32,73.37,182.63,20.69a16,16,0,0,0-22.63,0L20.68,160a16,16,0,0,0,0,22.63l52.69,52.68a16,16,0,0,0,22.63,0L235.32,96A16,16,0,0,0,235.32,73.37ZM84.68,224,32,171.31l32-32,26.34,26.35a8,8,0,0,0,11.32-11.32L75.31,128,96,107.31l26.34,26.35a8,8,0,0,0,11.32-11.32L107.31,96,128,75.31l26.34,26.35a8,8,0,0,0,11.32-11.32L139.31,64l32-32L224,84.69Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">DISTANCE</h2>
+          </a>
+          <a href="Weight.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Barbell" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M248,120h-8V88a16,16,0,0,0-16-16H208V64a16,16,0,0,0-16-16H168a16,16,0,0,0-16,16v56H104V64A16,16,0,0,0,88,48H64A16,16,0,0,0,48,64v8H32A16,16,0,0,0,16,88v32H8a8,8,0,0,0,0,16h8v32a16,16,0,0,0,16,16H48v8a16,16,0,0,0,16,16H88a16,16,0,0,0,16-16V136h48v56a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16v-8h16a16,16,0,0,0,16-16V136h8a8,8,0,0,0,0-16ZM32,168V88H48v80Zm56,24H64V64H88V192Zm104,0H168V64h24V175.82c0,.06,0,.12,0,.18s0,.12,0,.18V192Zm32-24H208V88h16Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">WEIGHT</h2>
+          </a>
+          <a href="Temperature.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Thermometer" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M212,56a28,28,0,1,0,28,28A28,28,0,0,0,212,56Zm0,40a12,12,0,1,1,12-12A12,12,0,0,1,212,96Zm-84,57V88a8,8,0,0,0-16,0v65a32,32,0,1,0,16,0Zm-8,47a16,16,0,1,1,16-16A16,16,0,0,1,120,200Zm40-66V48a40,40,0,0,0-80,0v86a64,64,0,1,0,80,0Zm-40,98a48,48,0,0,1-27.42-87.4A8,8,0,0,0,96,138V48a24,24,0,0,1,48,0v90a8,8,0,0,0,3.42,6.56A48,48,0,0,1,120,232Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">TEMPERATURE</h2>
+          </a>
+          <a href="Volume.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Coffee" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M80,56V24a8,8,0,0,1,16,0V56a8,8,0,0,1-16,0Zm40,8a8,8,0,0,0,8-8V24a8,8,0,0,0-16,0V56A8,8,0,0,0,120,64Zm32,0a8,8,0,0,0,8-8V24a8,8,0,0,0-16,0V56A8,8,0,0,0,152,64Zm96,56v8a40,40,0,0,1-37.51,39.91,96.59,96.59,0,0,1-27,40.09H208a8,8,0,0,1,0,16H32a8,8,0,0,1,0-16H56.54A96.3,96.3,0,0,1,24,136V88a8,8,0,0,1,8-8H208A40,40,0,0,1,248,120ZM200,96H40v40a80.27,80.27,0,0,0,45.12,72h69.76A80.27,80.27,0,0,0,200,136Zm32,24a24,24,0,0,0-16-22.62V136a95.78,95.78,0,0,1-1.2,15A24,24,0,0,0,232,128Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">VOLUME</h2>
+          </a>
+          <a href="Time.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Clock" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">TIME</h2>
+          </a>
+          <a href="Energy.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Flame" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M173.79,51.48a221.25,221.25,0,0,0-41.67-34.34,8,8,0,0,0-8.24,0A221.25,221.25,0,0,0,82.21,51.48C54.59,80.48,40,112.47,40,144a88,88,0,0,0,176,0C216,112.47,201.41,80.48,173.79,51.48ZM96,184c0-27.67,22.53-47.28,32-54.3,9.48,7,32,26.63,32,54.3a32,32,0,0,1-64,0Zm77.27,15.93A47.8,47.8,0,0,0,176,184c0-44-42.09-69.79-43.88-70.86a8,8,0,0,0-8.24,0C122.09,114.21,80,140,80,184a47.8,47.8,0,0,0,2.73,15.93A71.88,71.88,0,0,1,56,144c0-34.41,20.4-63.15,37.52-81.19A216.21,216.21,0,0,1,128,33.54a215.77,215.77,0,0,1,34.48,29.27C193.49,95.5,200,125,200,144A71.88,71.88,0,0,1,173.27,199.93Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">ENERGY</h2>
+          </a>
+          <a href="Speed.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Gauge" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M207.06,80.67A111.24,111.24,0,0,0,128,48h-.4C66.07,48.21,16,99,16,161.13V184a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V160A111.25,111.25,0,0,0,207.06,80.67ZM224,184H119.71l54.76-75.3a8,8,0,0,0-12.94-9.42L99.92,184H32V161.13c0-3.08.15-6.12.43-9.13H56a8,8,0,0,0,0-16H35.27c10.32-38.86,44-68.24,84.73-71.66V88a8,8,0,0,0,16,0V64.33A96.14,96.14,0,0,1,221,136H200a8,8,0,0,0,0,16h23.67c.21,2.65.33,5.31.33,8Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">SPEED</h2>
+          </a>
+          <a href="Pressure.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Gauge" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M207.06,80.67A111.24,111.24,0,0,0,128,48h-.4C66.07,48.21,16,99,16,161.13V184a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V160A111.25,111.25,0,0,0,207.06,80.67ZM224,184H119.71l54.76-75.3a8,8,0,0,0-12.94-9.42L99.92,184H32V161.13c0-3.08.15-6.12.43-9.13H56a8,8,0,0,0,0-16H35.27c10.32-38.86,44-68.24,84.73-71.66V88a8,8,0,0,0,16,0V64.33A96.14,96.14,0,0,1,221,136H200a8,8,0,0,0,0,16h23.67c.21,2.65.33,5.31.33,8Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">PRESSURE</h2>
+          </a>
+          <a href="Area.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Square" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208Z"></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">AREA</h2>
+          </a>
+          <a href="Chemical.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Flask" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M221.69,199.77,160,96.92V40h8a8,8,0,0,0,0-16H88a8,8,0,0,0,0,16h8V96.92L34.31,199.77A16,16,0,0,0,48,224H208a16,16,0,0,0,13.72-24.23ZM110.86,103.25A7.93,7.93,0,0,0,112,99.14V40h32V99.14a7.93,7.93,0,0,0,1.14,4.11L183.36,167c-12,2.37-29.07,1.37-51.75-10.11-15.91-8.05-31.05-12.32-45.22-12.81ZM48,208l28.54-47.58c14.25-1.74,30.31,1.85,47.82,10.72,19,9.61,35,12.88,48,12.88a69.89,69.89,0,0,0,19.55-2.7L208,208Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">CHEMICAL</h2>
+          </a>
+          <a href="Heat.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Fire" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M183.89,153.34a57.6,57.6,0,0,1-46.56,46.55A8.75,8.75,0,0,1,136,200a8,8,0,0,1-1.32-15.89c16.57-2.79,30.63-16.85,33.44-33.45a8,8,0,0,1,15.78,2.68ZM216,144a88,88,0,0,1-176,0c0-27.92,11-56.47,32.66-84.85a8,8,0,0,1,11.93-.89l24.12,23.41,22-60.41a8,8,0,0,1,12.63-3.41C165.21,36,216,84.55,216,144Zm-16,0c0-46.09-35.79-85.92-58.21-106.33L119.52,98.74a8,8,0,0,1-13.09,3L80.06,76.16C64.09,99.21,56,122,56,144a72,72,0,0,0,144,0Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">HEAT</h2>
+          </a>
+          <a href="Mass Flow Rate.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Waves" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M34.33,77.68a8,8,0,0,1,0-11.34C35.1,65.59,53.1,48,88,48c18.42,0,32.24,9.21,44.44,17.34C143.74,72.88,154.42,80,168,80a72.21,72.21,0,0,0,31.75-6.83,44.87,44.87,0,0,0,10.63-6.87,8,8,0,0,1,11.27,11.36C220.9,78.41,202.9,96,168,96c-18.42,0-32.24-9.21-44.44-17.34C112.26,71.12,101.58,64,88,64a72.21,72.21,0,0,0-31.75,6.83A44.87,44.87,0,0,0,45.62,77.7,8,8,0,0,1,34.33,77.68ZM210.38,122.3a44.87,44.87,0,0,1-10.63,6.87A72.21,72.21,0,0,1,168,136c-13.58,0-24.26-7.12-35.56-14.66C120.24,113.21,106.42,104,88,104c-34.9,0-52.9,17.59-53.65,18.34A8,8,0,0,0,45.62,133.7a44.87,44.87,0,0,1,10.63-6.87A72.21,72.21,0,0,1,88,120c13.58,0,24.26,7.12,35.56,14.66,12.2,8.13,26,17.34,44.44,17.34,34.9,0,52.9-17.59,53.65-18.34a8,8,0,0,0-11.27-11.36Zm0,56a44.87,44.87,0,0,1-10.63,6.87A72.21,72.21,0,0,1,168,192c-13.58,0-24.26-7.12-35.56-14.66C120.24,169.21,106.42,160,88,160c-34.9,0-52.9,17.59-53.65,18.34A8,8,0,0,0,45.62,189.7a44.87,44.87,0,0,1,10.63-6.87A72.21,72.21,0,0,1,88,176c13.58,0,24.26,7.12,35.56,14.66,12.2,8.13,26,17.34,44.44,17.34,34.9,0,52.9-17.59,53.65-18.34a8,8,0,0,0-11.27-11.36Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">MASS FLOW RATE</h2>
+          </a>
+          <a href="Aerospace.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="RocketLaunch" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M103.77,185.94C103.38,187.49,93.63,224,40,224a8,8,0,0,1-8-8c0-53.63,36.51-63.38,38.06-63.77a8,8,0,0,1,3.88,15.53c-.9.25-22.42,6.54-25.56,39.86C81.7,204.48,88,183,88.26,182a8,8,0,0,1,15.51,4Zm93-67.4L192,123.31v58.33A15.91,15.91,0,0,1,187.32,193L153,227.3A15.91,15.91,0,0,1,141.7,232a16.11,16.11,0,0,1-5.1-.83,15.94,15.94,0,0,1-10.78-12.92l-5.37-38.49L76.24,135.55l-38.47-5.37A16,16,0,0,1,28.7,103L63,68.68A15.91,15.91,0,0,1,74.36,64h58.33l4.77-4.77c26.68-26.67,58.83-27.82,71.41-27.07a16,16,0,0,1,15,15C224.6,59.71,223.45,91.86,196.78,118.54ZM40,114.34l37.15,5.18L116.69,80H74.36ZM91.32,128,128,164.68l57.45-57.45a76.46,76.46,0,0,0,22.42-59.16,76.65,76.65,0,0,0-59.11,22.47ZM176,139.31l-39.53,39.53L141.67,216,176,181.64Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">AEROSPACE</h2>
+          </a>
+          <a href="Angle.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Compass" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216ZM172.42,72.84l-64,32a8.05,8.05,0,0,0-3.58,3.58l-32,64A8,8,0,0,0,80,184a8.1,8.1,0,0,0,3.58-.84l64-32a8.05,8.05,0,0,0,3.58-3.58l32-64a8,8,0,0,0-10.74-10.74ZM138,138,97.89,158.11,118,118l40.15-20.07Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">ANGLE</h2>
+          </a>
+          <a href="Data.html" class="flex flex-1 gap-3 rounded-lg border border-[#dde0e3] dark:border-slate-700 bg-white dark:bg-slate-800 p-4 items-center hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors">
+            <div class="text-[#121416] dark:text-white" data-icon="Database" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,24C74.17,24,32,48.6,32,80v96c0,31.4,42.17,56,96,56s96-24.6,96-56V80C224,48.6,181.83,24,128,24Zm80,104c0,9.62-7.88,19.43-21.61,26.92C170.93,163.35,150.19,168,128,168s-42.93-4.65-58.39-13.08C55.88,147.43,48,137.62,48,128V111.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64ZM69.61,53.08C85.07,44.65,105.81,40,128,40s42.93,4.65,58.39,13.08C200.12,60.57,208,70.38,208,80s-7.88,19.43-21.61,26.92C170.93,115.35,150.19,120,128,120s-42.93-4.65-58.39-13.08C55.88,99.43,48,89.62,48,80S55.88,60.57,69.61,53.08ZM186.39,202.92C170.93,211.35,150.19,216,128,216s-42.93-4.65-58.39-13.08C55.88,195.43,48,185.62,48,176V159.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64V176C208,185.62,200.12,195.43,186.39,202.92Z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#121416] dark:text-white text-base font-bold leading-tight">DATA</h2>
+          </a>
+        </div>
+      </main>
+      <footer class="pb-5">
+        <p class="text-[#6a7581] dark:text-slate-400 text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center underline">
+          Couldn't find what you're looking for? <a href="../Chatbot.html" class="text-blue-600 dark:text-blue-400 underline">ask our chatbot</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

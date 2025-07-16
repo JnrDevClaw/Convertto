@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Admin Login</title>
+
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="/Connectors/adminJS.js"></script>
+    <script src="/Views/dark_mode.js"></script>
+  </head>
+  <body>
+    <form
+      id="adminLoginForm"
+      class="relative flex size-full min-h-screen flex-col justify-between overflow-x-hidden bg-white font-work group/design-root dark:bg-slate-900">
+      <div>
+        <a
+          href="Admin Home.html"
+          class="text-[#111418] dark:text-white flex size-12 shrink-0 items-center"
+          data-icon="ArrowLeft"
+          data-size="24px"
+          data-weight="regular"></a>
+        <h2 class="text-[#111418] dark:text-white tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">Admin Login</h2>
+        <div class="flex w-12 items-center justify-end">
+          <button id="theme-toggle-button" class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-700">
+            <span id="theme-toggle-sun-icon" class="text-gray-800 dark:text-gray-200">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><line x1="12" x2="12" y1="2" y2="6"/><line x1="12" x2="12" y1="18" y2="22"/><line x1="4.93" x2="7.76" y1="4.93" y2="7.76"/><line x1="16.24" x2="19.07" y1="16.24" y2="19.07"/><line x1="2" x2="6" y1="12" y2="12"/><line x1="18" x2="22" y1="12" y2="12"/><line x1="4.93" x2="7.76" y1="19.07" y2="16.24"/><line x1="16.24" x2="19.07" y1="7.76" y2="4.93"/></svg>
+            </span>
+            <span id="theme-toggle-moon-icon" class="text-gray-800 dark:text-gray-200 hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+            </span>
+          </button>
+        </div>
+        <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+          <label class="flex flex-col min-w-40 flex-1">
+            <p class="text-[#111418] dark:text-white text-base font-medium leading-normal pb-2">Username</p>
+            <input
+              placeholder="Enter your username"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111418] dark:text-white focus:outline-0 focus:ring-0 border border-[#dbe0e6] dark:border-slate-700 bg-white dark:bg-slate-800 focus:border-[#dbe0e6] h-14 placeholder:text-[#60758a] dark:placeholder:text-slate-400 p-[15px] text-base font-normal leading-normal"
+              id="adminUsername"
+              name="username"
+              value=""
+            />
+          </label>
+        </div>
+        <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+          <label class="flex flex-col min-w-40 flex-1">
+            <p class="text-[#111418] dark:text-white text-base font-medium leading-normal pb-2">Password</p>
+            <input
+              placeholder="Enter your password"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111418] dark:text-white focus:outline-0 focus:ring-0 border border-[#dbe0e6] dark:border-slate-700 bg-white dark:bg-slate-800 focus:border-[#dbe0e6] h-14 placeholder:text-[#60758a] dark:placeholder:text-slate-400 p-[15px] text-base font-normal leading-normal"
+              type="password"
+              id="adminPassword"
+              name="password"
+              value=""
+            />
+          </label>
+        </div>
+      </div>
+      <div>
+        <div class="flex px-4 py-3 justify-center">
+          <button
+            type="submit"
+            id="login"
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#0b79ee] dark:bg-blue-700 text-white text-sm font-bold leading-normal tracking-[0.015em]"
+          >
+            <span class="truncate">Login</span>
+          </button>
+        </div>
+        <div class="h-5 bg-white dark:bg-slate-900"></div>
+      </div>
+    </form>
+  </body>
+</html>
