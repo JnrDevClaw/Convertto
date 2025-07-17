@@ -6,6 +6,7 @@ import { Units } from "../DB models/units.js";
 
 const router = new Router();
 
+//Assign a variable to an auh function so that we can use it to protect routes that are rstricted to authenticated users only
 const authAdmin = async (ctx, next) => {
     const auth = ctx.headers.authorization;
     if(!auth) {
@@ -13,14 +14,14 @@ const authAdmin = async (ctx, next) => {
         ctx.body = {error: "Authentication required"};
         return;
     }
-    if (!auth.startsWith('Bearer')) {
+    if (!auth.startsWith('Bearer')) { //Check if the header has a bearer
         ctx.status = 401;
         ctx.body = {error: "Authentication error You don't have a bearer header"};
         return;
     }        
         
     try {
-        const token = auth.split(' ')[1];
+        const token = auth.split(' ')[1]; //Split the bearer header into two and get the second part which has the token
         const decoded = jwt.verify(token, process.env.JWT_KEY);
         // Attach the decoded payload (which contains the admin's username) to the context
         ctx.state.admin = decoded;
@@ -51,7 +52,7 @@ router.post('/api/admin/login', async(ctx) => {
             return;
         }
     
-        const admin = await Admin.findOne({ username });
+        const admin = await Admin.findOne({ username }); //Checks if Admin with the username exists
         
         if (!admin) {
             ctx.status = 401;
@@ -65,7 +66,7 @@ router.post('/api/admin/login', async(ctx) => {
             ctx.body = { error: "Incorrect Credentials" };
             return;
         }
-        const token = jwt.sign({
+        const token = jwt.sign({  //Assign a jwt token to be used for authentication instead of the real credentials
             username: admin.username},
             process.env.JWT_KEY,
             {expiresIn: "1h"}
