@@ -36,15 +36,15 @@ document.addEventListener('DOMContentLoaded', () => {
     resultOutput.value = 'Converting...';
 
     try {
-      const response = await fetch('/api/convert', {
+      const response = await fetch('http://localhost:3001/api/convert', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           category: currentPageCategory,
-          fromUnit: fromUnit,
-          toUnit: toUnit,
+          fromUnit,
+          toUnit,
           input: amount,
         }),
       });

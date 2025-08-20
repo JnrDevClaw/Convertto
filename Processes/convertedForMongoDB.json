@@ -26,14 +26,14 @@
   {
     "category": "DISTANCE",
     "name": "ft to Meters",
-    "fromUnit": "ft",
+    "fromUnit": "feet",
     "toUnit": "meters",
     "formula": "feet/3.28084",
     "parameter": "feet"
   },
   {
     "category": "DISTANCE",
-    "name": "cm to Inch",
+    "name": "cm to Inches",
     "fromUnit": "cm",
     "toUnit": "inch",
     "formula": "centimeters/2.54",
@@ -41,7 +41,7 @@
   },
   {
     "category": "DISTANCE",
-    "name": "inch to Cm",
+    "name": "Inches to cm",
     "fromUnit": "inch",
     "toUnit": "cm",
     "formula": "inches*2.54",
@@ -49,16 +49,16 @@
   },
   {
     "category": "DISTANCE",
-    "name": "yd to Mt",
+    "name": "Yards to Meters",
     "fromUnit": "yd",
-    "toUnit": "mt",
+    "toUnit": "m",
     "formula": "yards*0.9144",
     "parameter": "yards"
   },
   {
     "category": "DISTANCE",
-    "name": "mt to Yd",
-    "fromUnit": "mt",
+    "name": "Meters to Yards",
+    "fromUnit": "m",
     "toUnit": "yd",
     "formula": "meters/0.9144",
     "parameter": "meters"
@@ -225,11 +225,11 @@
   },
   {
     "category": "WEIGHT",
-    "name": "kgTo to nne",
-    "fromUnit": "kgto",
-    "toUnit": "nne",
+    "name": "kg to Tonne",
+    "fromUnit": "kg",
+    "toUnit": "tonne",
     "formula": "kilograms/1000",
-    "parameter": "kilograms"
+    "parameter": "kilograms" 
   },
   {
     "category": "WEIGHT",
@@ -257,15 +257,15 @@
   },
   {
     "category": "WEIGHT",
-    "name": "gramsTo to nne",
-    "fromUnit": "gramsto",
-    "toUnit": "nne",
+    "name": "Grams to Tonne",
+    "fromUnit": "grams",
+    "toUnit": "tonne",
     "formula": "grams / 1000000",
     "parameter": "grams"
   },
   {
     "category": "WEIGHT",
-    "name": "tonne to Grams",
+    "name": "Tonne to Grams",
     "fromUnit": "tonne",
     "toUnit": "grams",
     "formula": "tonnes * 1000000",
@@ -273,15 +273,15 @@
   },
   {
     "category": "WEIGHT",
-    "name": "ouncesTo to nne",
-    "fromUnit": "ouncesto",
-    "toUnit": "nne",
+    "name": "Ounces to Tonne",
+    "fromUnit": "ounces",
+    "toUnit": "tonne",
     "formula": "ounces / 35273.962",
     "parameter": "ounces"
   },
   {
     "category": "WEIGHT",
-    "name": "tonne to Ounces",
+    "name": "Tonne to Ounces",
     "fromUnit": "tonne",
     "toUnit": "ounces",
     "formula": "tonnes * 35273.962",
@@ -289,15 +289,15 @@
   },
   {
     "category": "WEIGHT",
-    "name": "poundsTo to nne",
-    "fromUnit": "poundsto",
-    "toUnit": "nne",
+    "name": "Pounds to Tonne",
+    "fromUnit": "pounds",
+    "toUnit": "tonne",
     "formula": "pounds / 2204.623",
     "parameter": "pounds"
   },
   {
     "category": "WEIGHT",
-    "name": "tonne to Pounds",
+    "name": "Tonne to Pounds",
     "fromUnit": "tonne",
     "toUnit": "pounds",
     "formula": "tonnes * 2204.623",
@@ -305,7 +305,7 @@
   },
   {
     "category": "WEIGHT",
-    "name": "ounces to Pounds",
+    "name": "Ounces to Pounds",
     "fromUnit": "ounces",
     "toUnit": "pounds",
     "formula": "ounces / 16",
@@ -329,9 +329,9 @@
   },
   {
     "category": "WEIGHT",
-    "name": "kgToS to ne",
-    "fromUnit": "kgtos",
-    "toUnit": "ne",
+    "name": "kg to Stone",
+    "fromUnit": "kg",
+    "toUnit": "stone",
     "formula": "kilograms / 6.35029",
     "parameter": "kilograms"
   },
@@ -345,9 +345,9 @@
   },
   {
     "category": "WEIGHT",
-    "name": "poundsToS to ne",
-    "fromUnit": "poundstos",
-    "toUnit": "ne",
+    "name": "Pounds to Stone",
+    "fromUnit": "pounds",
+    "toUnit": "stone",
     "formula": "pounds / 14",
     "parameter": "pounds"
   },
@@ -361,9 +361,9 @@
   },
   {
     "category": "WEIGHT",
-    "name": "gramsToS to ne",
-    "fromUnit": "gramstos",
-    "toUnit": "ne",
+    "name": "Grams to Stone",
+    "fromUnit": "grams",
+    "toUnit": "stone",
     "formula": "grams / 6350.29",
     "parameter": "grams"
   },

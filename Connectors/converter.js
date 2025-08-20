@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Load categories
     try {
-        const response = await fetch('http://localhost:3000/api/categories');
+        const response = await fetch('http://localhost:3001/api/categories');
         const categories = await response.json();
         categories.forEach(category => {
             const option = new Option(category, category);
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!category) return;
 
         try {
-            const response = await fetch(`http://localhost:3000/api/categories/${category}`);
+            const response = await fetch(`http://localhost:3001/api/categories/${category}`);
             const conversions = await response.json();
             
             // Clear previous options
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         try {
-            const response = await fetch('http://localhost:3000/api/convert', {
+            const response = await fetch('http://localhost:3001/api/convert', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
